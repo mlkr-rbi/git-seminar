@@ -525,3 +525,5 @@ cd ../git-seminar/
 git pull
 ```
 
+This is a line from Matija!
+
