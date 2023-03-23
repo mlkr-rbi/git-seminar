@@ -541,3 +541,10 @@ git pull origin matija
 git push origin main
 ```
 
+Here we pulled changes from the remote branch matija, but we can also pull changes from the local branch matija:
+```
+git checkout main
+git merge matija
+git push origin main
+```
+
