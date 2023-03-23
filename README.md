@@ -525,5 +525,19 @@ cd ../git-seminar/
 git pull
 ```
 
-This is a line from Matija!
+Lets create a local branch and push it to Github:
+```
+git checkout -b matija
+echo "This is a line from Matija branch!" >> README.md
+git add README.md
+git commit -m "Add one line to README from Matija branch"
+git push -u origin matija
+```
+
+Lets switch to main branch and pull changes from matija branch, then push them to main branch on Github:
+```
+git checkout main
+git pull origin matija
+git push origin main
+```
 
