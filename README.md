@@ -505,6 +505,11 @@ If everything is ok and Github responds with your username, your key is set and 
 git remote show origin
 ```
 
+Sometimes you will get an error stating that the remote host identification has changed! You just need to add github.com in the list of known hosts:
+```
+ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+```
+
 You can now push changes to the repository:
 ```
 git push -u origin main
