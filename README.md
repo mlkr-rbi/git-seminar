@@ -553,3 +553,5 @@ git merge matija
 git push origin main
 ```
 
+# git-seminar
+# git-seminar-Katarina
