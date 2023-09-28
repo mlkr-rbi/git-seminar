@@ -555,3 +555,4 @@ git push origin main
 
 # git-seminar
 # git-seminar-Katarina
+Katarina writes in katica branch
